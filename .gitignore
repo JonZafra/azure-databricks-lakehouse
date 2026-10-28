@@ -1,0 +1,9 @@
+.env
+*.pem
+*.key
+secrets*
+__pycache__/
+.venv/
+.databricks/
+data/raw/
+.DS_Store
