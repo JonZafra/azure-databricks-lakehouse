@@ -10,6 +10,12 @@ Construir un pipeline de datos de extremo a extremo en Azure: ingesta con Azure 
 
 ## Fuente de datos
 
+REData API de Red Eléctrica: https://www.ree.es/es/apidatos
+
+- Endpoint principal: generación por tecnología (`generacion/estructura-generacion`).
+- Agregación temporal: día, mes o año; filtrable por comunidad autónoma (Navarra: `geo_id` 14).
+- Formato: JSON anidado (estándar JSON:API), solo peticiones GET.
+
 ## Stack
 
 ## Cómo ejecutarlo
